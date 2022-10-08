@@ -15,7 +15,7 @@ body {
 }
 
 
-a, #navContact {
+a, #navContact, #home {
     color: rgb(255, 190, 70);
     font-size: 250%;
     text-decoration: none;
@@ -83,7 +83,7 @@ a, #navContact {
         width: 40vw;
         min-width: 60px;
         max-width: 300px;
-        height: 15vh;
+        height: 10vh;
         border-radius: 50%;
     } 
 }
@@ -92,7 +92,7 @@ a, #navContact {
         width: 15vw;
         min-width: 60px;
         max-width: 300px;
-        height: 30vh;
+        height: 20vh;
     } 
 }
 
@@ -120,7 +120,7 @@ a, #navContact {
     display: flex ;
     justify-content: center;
     align-items: center;
-    background-image: url('images/man1.jpg');
+    background-image: url('images/projSAM.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -328,5 +328,12 @@ a, #navContact {
     display: none;
 }
 
+a, #navContact, #startButton, #home {
+    cursor:grab;
+}
+
+a:active, #navContact:active, #startButton:active, #home:active {
+    cursor:grabbing;
+}
 
 
